@@ -9,7 +9,6 @@ use Slim\Views\Twig;
 
 require __DIR__ . '/vendor/autoload.php';
 
-
 // Crea la aplicación.
 // Crea el Container de la aplicación usando PHP-DI
 $container = new Container();

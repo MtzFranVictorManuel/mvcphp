@@ -33,7 +33,7 @@ class DataContext {
     }
     
 
-    public function obtener_libros() {
+    public function obten_libros() {
         // Obtenemos todos los editoriales
         $consulta = 'SELECT libro.id, libro.nombre, libro.precio, editorial.nombre AS editorial_nombre
                     FROM editorial INNER JOIN libro ON editorial.id = libro.id_editorial';

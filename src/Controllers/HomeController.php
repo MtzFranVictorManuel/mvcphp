@@ -18,7 +18,7 @@ class HomeController {
     }
     
     public function index(Request $req, Response $res, $args) {
-        $libros = $this->db->obtener_libros();
+        $libros = $this->db->obten_libros();
         return $this->view->render($res, "{$this->path}index.html", ['model' => $libros]);
     }
     

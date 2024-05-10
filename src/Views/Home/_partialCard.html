@@ -1,7 +1,7 @@
 <div class="col">
     <div class="card h-100">
         <div class="card-header text-end">
-            Id: <span class="badge bg-warning text-dark">
+            Id: <span class="badge text-bg-warning">
                 {{ item.id }}
             </span>
         </div>
@@ -13,8 +13,9 @@
                 <strong>Fabricante:</strong> {{ item.editorial_nombre }}
             </p>
             <p class="card-text text-end">
-                <small class="text-muted"><strong>Precio:</strong> ${{ item.precio }}</small>
+                <small class="text-body-secondary"><strong>Precio:</strong> ${{ item.precio }}</small>
             </p>
         </div>
+        <div class="card-footer text-center"><a href="#" class="btn btn-primary btn-sm">Ver detalles</a></div>
     </div>
 </div>
